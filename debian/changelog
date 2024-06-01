@@ -1,5 +1,14 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-iguanesolutions-go-systemd (5.1.0-2) unstable; urgency=medium
 
-  * Initial release
+  * source-only upload for migration to testing
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Drew Parsons <dparsons@debian.org>  Wed, 23 Nov 2022 10:44:28 +0100
+
+golang-github-iguanesolutions-go-systemd (5.1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1024556)
+  * debian patch skip_resolved_tests.patch skips tests in the resolved
+    component (which is still under development and very experimental,
+    fails to access org.freedesktop.resolve1)
+
+ -- Drew Parsons <dparsons@debian.org>  Mon, 21 Nov 2022 13:25:40 +0100
