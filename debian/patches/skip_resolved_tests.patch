@@ -1,0 +1,10 @@
+Index: golang-github-iguanesolutions-go-systemd/resolved/resolver_test.go
+===================================================================
+--- golang-github-iguanesolutions-go-systemd.orig/resolved/resolver_test.go	2022-11-21 12:57:15.931900568 +0100
++++ golang-github-iguanesolutions-go-systemd/resolved/resolver_test.go	2022-11-21 13:12:17.869628640 +0100
+@@ -1,3 +1,5 @@
++// +build ignore
++
+ package resolved
+ 
+ import (
